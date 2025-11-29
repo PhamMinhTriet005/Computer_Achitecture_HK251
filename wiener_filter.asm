@@ -1,7 +1,7 @@
 .data
-input_file:   .asciiz  "input"           # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\input.txt"
-desired_file: .asciiz "desired"         # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\desired.txt"
-output_file:  .asciiz "output"          # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\output.txt"
+input_file:   .asciiz  "input.txt"           # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\input.txt"
+desired_file: .asciiz "desired.txt"         # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\desired.txt"
+output_file:  .asciiz "output.txt"          # use the full address if you cannot open the file "C:\\Users\\ADMIN\\Downloads\\KTMT_HK251_Assignment\\codebase\\output.txt"
 buf_size:     .word 32768
 buffer:       .space 32768
 NUM_SAMPLES:  .word 10
